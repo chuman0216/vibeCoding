@@ -237,6 +237,7 @@ input:checked + .slider:before {
     padding: 10px 40px;
     position: relative;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .timeline-item:nth-child(odd) {
