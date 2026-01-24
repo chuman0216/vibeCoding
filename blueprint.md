@@ -2,24 +2,27 @@
 
 ## Overview
 
-A web application to generate lottery numbers, featuring a dark mode and basic informational pages to improve its legitimacy for services like Google AdSense.
+A web application to generate lottery numbers, featuring a dark mode, basic informational pages, and a new personal portfolio section.
 
 ## Features
 
-*   Generate 6 unique random numbers between 1 and 45.
-*   Display the generated numbers to the user.
-*   A button to trigger the number generation.
-*   **[New]** Dark mode toggle with user preference saved in `localStorage`.
-*   **[New]** Basic informational pages: "About", "Contact", "Privacy Policy".
-*   **[New]** Navigation menu to access all pages.
+*   Lotto number generator on the main page.
+*   Dark mode toggle with user preference saved in `localStorage`.
+*   Basic informational pages: "About", "Contact", "Privacy Policy".
+*   Site-wide navigation menu.
+*   **[New]** A comprehensive, single-page portfolio (`portfolio.html`) with the following sections:
+    *   A visually appealing "hero" introduction section.
+    *   A timeline/card-based "Experience" section.
+    *   A grid-based "Projects" section.
+    *   A categorized "Skills" section.
 
 ## AdSense Disclaimer
-**Important:** Google AdSense approval is not guaranteed. Approval depends on high-quality, original content, which the site owner must provide. This project adds the necessary technical pages, but the content itself is the most critical factor for approval.
+**Important:** Google AdSense approval is not guaranteed. Approval depends on high-quality, original content, which the site owner must provide.
 
 ## Current Task
 
-*   Implement the dark mode feature.
-*   Create the informational pages.
-*   Add a site-wide navigation menu.
+*   Add "Portfolio" link to the main navigation.
+*   Create the `portfolio.html` file with placeholder content and structure.
+*   Design and style all portfolio sections in `style.css`.
+*   Ensure the new page is responsive and works with dark mode.
 *   Commit and push all changes.
-*   Provide clear deployment instructions.
